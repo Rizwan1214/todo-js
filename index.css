@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-wrapper {
+  padding: 50px 0;
+}
+.employeeFormWrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 0, 0, 0.5);
+  justify: center;
+  align-items: center;
+  display: none;
+}
+.employeeFormWrapper.show {
+  display: flex;
+}
+form#formInputData {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: cadetblue;
+  box-shadow: 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-group input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+.error input {
+  box-shadow: 0px 0px 0px 2px red;
+}
+.field-wrap:after {
+  content: "";
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 99;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.input-filled:after {
+  background: green;
+}
+.error:after {
+  background: red;
+}
+
+.field-wrap {
+  position: relative;
+}
+
+form#formInputData button {
+  /* max-width: 30%; */
+  margin-left: auto;
+  font-size: 20px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+p.nameError {
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.employeeDataAddWrapper {
+  text-align: right;
+  margin-bottom: 30px;
+  display: flex;
+}
+.filter {
+  width: 500px;
+}
+
+.filter input {
+  border: 1px solid #ccc !important;
+}
+.employeeDataAddWrapper button {
+  margin-left: auto;
+  font-size: 20px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background: cadetblue;
+  color: white;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+.list-btn-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.list-btn-wrapper button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+  color: #fff;
+}
+.list-btn-wrapper button:first-child {
+  background: green;
+}
+.list-btn-wrapper button:last-child {
+  background: red;
+}
+
+.pagination-block ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.pagination-block ul button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background: cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
