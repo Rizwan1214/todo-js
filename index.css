@@ -166,3 +166,11 @@ td {
   border: none;
   border-radius: 8px;
 }
+#page-btn button {
+  width: 40px;
+}
+
+#page-btn {
+  display: flex;
+  gap: 10px;
+}

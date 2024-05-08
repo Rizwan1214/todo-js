@@ -135,6 +135,7 @@ function employeeSubmit() {
     employeeForm.reset();
     employeeFormWrapper.classList.remove("show");
     removeErrorIn();
+    console.log(employeeData);
   }
 }
 
@@ -197,18 +198,215 @@ searchFilter.addEventListener("input", function () {
   console.log(filteredEmployeeData);
 });
 
-const pageCount = 2;
+const customArray = [
+  {
+    employeeId: 1,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 2,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 3,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 4,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 5,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 6,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 7,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 8,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 9,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 10,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 11,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 12,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 13,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 14,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 15,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 16,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 17,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 18,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 19,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 20,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 21,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 22,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 23,
+    employeeName: "rizwan",
+    employeeDesignation: "frontend",
+    employeeEmail: "rizwan@text.com",
+    employeeCity: "Lahore",
+  },
+  {
+    employeeId: 24,
+    employeeName: "Nabeel Muzaffar",
+    employeeDesignation: "Full stack developer",
+    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeCity: "Lahore",
+  },
+];
+const customData = customArray.map((elem, index) => {
+  return `
+  <tr>
+      <td>${elem.employeeId}</td>
+      <td>${elem.employeeName}</td>
+      <td>${elem.employeeDesignation}</td>
+      <td>${elem.employeeEmail}</td>
+      <td>${elem.employeeCity}</td>
+      <td>
+        <div class="list-btn-wrapper">
+            <button onclick="editList(${index})">✎</button>
+            <button onclick="deleteList(${index})">🗑</button>
+        </div>
+      </td>
+  </tr>
+`;
+});
+employeeList.innerHTML = customData.join(" ");
 
+let pageCount = 6;
+let totalPages = Math.ceil(customArray.length / pageCount);
+
+for (let i = 1; i <= totalPages; i++) {
+  document.getElementById(
+    "page-btn"
+  ).innerHTML += `<button onclick="console.log(${i})">${i}</button>`;
+}
 document.getElementById("prev-btn").addEventListener("click", function () {
-  const totalPages = employeeData.length / pageCount;
-
   console.log("Previous");
-  console.log(totalPages);
+  if (totalPages > 1) {
+    totalPages--;
+    console.log(totalPages);
+  }
 });
 
 document.getElementById("next-btn").addEventListener("click", function () {
-  const totalPages = employeeData.length / pageCount;
-
   console.log("Next");
-  console.log(totalPages);
+  if (totalPages < Math.ceil(customArray.length / pageCount)) {
+    totalPages++;
+    console.log(totalPages);
+  }
 });
