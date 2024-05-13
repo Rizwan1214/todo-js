@@ -208,205 +208,208 @@ const customArray = [
   },
   {
     employeeId: 2,
-    employeeName: "Nabeel Muzaffar",
+    employeeName: "safeer",
     employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeEmail: "safeer@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 3,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "salman",
+    employeeDesignation: "java",
+    employeeEmail: "salman@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 4,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
-    employeeCity: "Lahore",
+    employeeName: "hassaan",
+    employeeDesignation: "drupal developer",
+    employeeEmail: "hassaan@gmiail.com",
+    employeeCity: "multan",
   },
   {
     employeeId: 5,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "husnain",
+    employeeDesignation: "java",
+    employeeEmail: "husnain@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 6,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeName: "adnan",
+    employeeDesignation: "backend developer",
+    employeeEmail: "adnan@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 7,
-    employeeName: "rizwan",
+    employeeName: "akif",
     employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeEmail: "akif@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 8,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeName: "hamaz",
+    employeeDesignation: "java developer",
+    employeeEmail: "hamaz@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 9,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "hunfa",
+    employeeDesignation: "Mern stack developer",
+    employeeEmail: "hunfa@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 10,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
+    employeeName: "Nabeel",
+    employeeDesignation: "Mern stack developer",
     employeeEmail: "nabeelmuzaffar0348@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 11,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "farhan",
+    employeeDesignation: "Mern stack developer",
+    employeeEmail: "farhan@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 12,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeName: "zuhaib",
+    employeeDesignation: "product manager",
+    employeeEmail: "zuhaib@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 13,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "faisal",
+    employeeDesignation: "backend developer",
+    employeeEmail: "faisal@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 14,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeName: "fahad",
+    employeeDesignation: "react developer",
+    employeeEmail: "fahad@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 15,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
-    employeeCity: "Lahore",
+    employeeName: "hamza",
+    employeeDesignation: "react native",
+    employeeEmail: "hamza@text.com",
+    employeeCity: "jhanag",
   },
   {
     employeeId: 16,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
-    employeeCity: "Lahore",
+    employeeName: "usman",
+    employeeDesignation: "Designer",
+    employeeEmail: "usman@gmiail.com",
+    employeeCity: "jhanag",
   },
   {
     employeeId: 17,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "fawad",
+    employeeDesignation: "react native",
+    employeeEmail: "fawad@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 18,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
-    employeeCity: "Lahore",
+    employeeName: "bilal",
+    employeeDesignation: "Business developer",
+    employeeEmail: "bilal@gmiail.com",
+    employeeCity: "Gujjaranwala",
   },
   {
     employeeId: 19,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeName: "faris",
+    employeeDesignation: "Okara",
+    employeeEmail: "faris@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 20,
-    employeeName: "Nabeel Muzaffar",
+    employeeName: "talha",
     employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
+    employeeEmail: "talha@gmiail.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 21,
-    employeeName: "rizwan",
+    employeeName: "taha",
     employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
+    employeeEmail: "taha@text.com",
     employeeCity: "Lahore",
   },
   {
     employeeId: 22,
-    employeeName: "Nabeel Muzaffar",
-    employeeDesignation: "Full stack developer",
-    employeeEmail: "nabeelmuzaffar0348@gmiail.com",
-    employeeCity: "Lahore",
-  },
-  {
-    employeeId: 23,
-    employeeName: "rizwan",
-    employeeDesignation: "frontend",
-    employeeEmail: "rizwan@text.com",
-    employeeCity: "Lahore",
-  },
-  {
-    employeeId: 24,
-    employeeName: "Nabeel Muzaffar",
+    employeeName: "shehzad",
     employeeDesignation: "Full stack developer",
     employeeEmail: "nabeelmuzaffar0348@gmiail.com",
     employeeCity: "Lahore",
   },
 ];
-const customData = customArray.map((elem, index) => {
-  return `
-  <tr>
-      <td>${elem.employeeId}</td>
-      <td>${elem.employeeName}</td>
-      <td>${elem.employeeDesignation}</td>
-      <td>${elem.employeeEmail}</td>
-      <td>${elem.employeeCity}</td>
-      <td>
-        <div class="list-btn-wrapper">
-            <button onclick="editList(${index})">✎</button>
-            <button onclick="deleteList(${index})">🗑</button>
-        </div>
-      </td>
-  </tr>
-`;
-});
-employeeList.innerHTML = customData.join(" ");
-
+let page = 1;
 let pageCount = 6;
 let totalPages = Math.ceil(customArray.length / pageCount);
+let startIndex = 0;
+let endIndex = pageCount;
+let displayEmployeeArray = customArray.slice(startIndex, endIndex);
+const customEmployeeArr = () => {
+  const customData = displayEmployeeArray.map((elem, index) => {
+    return `
+    <tr>
+        <td>${elem.employeeId}</td>
+        <td>${elem.employeeName}</td>
+        <td>${elem.employeeDesignation}</td>
+        <td>${elem.employeeEmail}</td>
+        <td>${elem.employeeCity}</td>
+        <td>
+          <div class="list-btn-wrapper">
+              <button onclick="editList(${index})">✎</button>
+              <button onclick="deleteList(${index})">🗑</button>
+          </div>
+        </td>
+    </tr>
+  `;
+  });
+  employeeList.innerHTML = customData.join(" ");
+};
 
 for (let i = 1; i <= totalPages; i++) {
   document.getElementById(
     "page-btn"
-  ).innerHTML += `<button onclick="console.log(${i})">${i}</button>`;
+  ).innerHTML += `<button onclick="pageBtn(${i})">${i}</button>`;
+}
+function pageBtn(elem) {
+  page = elem;
+  startIndex = (elem - 1) * pageCount;
+  endIndex = elem * pageCount;
+  displayEmployeeArray = customArray.slice(startIndex, endIndex);
+  customEmployeeArr();
 }
 document.getElementById("prev-btn").addEventListener("click", function () {
-  console.log("Previous");
-  if (totalPages > 1) {
-    totalPages--;
-    console.log(totalPages);
+  if (page > 1) {
+    page--;
+    startIndex = (page - 1) * pageCount;
+    endIndex = page * pageCount;
+    displayEmployeeArray = customArray.slice(startIndex, endIndex);
+    customEmployeeArr();
   }
 });
 
 document.getElementById("next-btn").addEventListener("click", function () {
-  console.log("Next");
-  if (totalPages < Math.ceil(customArray.length / pageCount)) {
-    totalPages++;
-    console.log(totalPages);
+  if (page < totalPages) {
+    page++;
+    startIndex = (page - 1) * pageCount;
+    endIndex = page * pageCount;
+    displayEmployeeArray = customArray.slice(startIndex, endIndex);
+    customEmployeeArr();
   }
 });
+customEmployeeArr();
